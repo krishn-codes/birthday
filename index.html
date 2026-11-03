@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A premium birthday wish made with love." />
+  <title>Happy Birthday, Bestie ✨</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: { extend: {
+        fontFamily: { sans: ['DM Sans', 'sans-serif'], display: ['Playfair Display', 'serif'] },
+        colors: { ink: '#211a2b', blush: '#f8e5e9', rose: '#d9637c', plum: '#604a70' },
+        boxShadow: { luxury: '0 25px 80px rgba(82, 42, 74, .16)' }
+      }}
+    }
+  </script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="min-h-screen overflow-x-hidden bg-[#fffaf9] text-ink font-sans">
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div><div class="ambient ambient-three"></div>
+  <div class="floating-hearts" aria-hidden="true"></div><div class="confetti" aria-hidden="true"></div>
+  <main class="relative mx-auto w-[min(100%-2rem,1100px)] pb-10 pt-5 sm:pt-8">
+    <nav class="mb-5 flex items-center justify-between px-2 text-[10px] font-bold uppercase tracking-[.28em] text-plum/70 sm:mb-8 sm:px-5"><span>For someone special</span><span class="flex items-center gap-2"><span class="h-1.5 w-1.5 rounded-full bg-rose"></span> 2026</span></nav>
+    <section class="relative isolate flex min-h-[690px] flex-col items-center justify-center overflow-hidden rounded-[2rem] border border-white/80 bg-white/55 px-5 py-16 text-center shadow-luxury backdrop-blur-xl sm:rounded-[3rem] sm:px-10">
+      <div class="absolute inset-3 rounded-[1.5rem] border border-rose/10 sm:inset-5 sm:rounded-[2.5rem]"></div><div class="absolute left-8 top-10 text-rose/30 sm:left-16 sm:top-16">✦</div><div class="absolute bottom-16 right-8 text-2xl text-plum/20 sm:right-20">✧</div>
+      <div class="relative mb-8 flex items-center gap-3 rounded-full border border-rose/15 bg-white/70 px-5 py-2 text-[10px] font-bold uppercase tracking-[.25em] text-rose shadow-sm"><span class="h-1.5 w-1.5 animate-pulse rounded-full bg-rose"></span> A little surprise for you</div>
+      <div class="relative mb-6 text-7xl drop-shadow-xl sm:text-8xl" aria-label="Birthday cake">🎂</div>
+      <p class="relative mb-4 text-[11px] font-bold uppercase tracking-[.35em] text-plum/70">Today is all about you</p>
+      <h1 class="relative max-w-4xl font-display text-[3.7rem] font-medium leading-[.9] tracking-[-.06em] text-ink sm:text-8xl lg:text-[8.5rem]">Happy Birthday,<br><span id="friendName" class="italic text-rose">Bestie</span></h1>
+      <p class="relative mt-8 max-w-lg text-sm leading-7 text-plum/75 sm:text-base">Tumhari smile duniya ki sabse pretty cheezon mein se ek hai <span class="text-rose">♡</span></p>
+      <button id="surpriseBtn" class="group relative mt-8 inline-flex items-center gap-3 rounded-full bg-ink px-7 py-4 text-sm font-bold text-white shadow-xl shadow-ink/20 transition duration-300 hover:-translate-y-1 hover:bg-rose hover:shadow-rose/30">Open Your Surprise <span class="text-lg transition group-hover:rotate-12">↗</span></button>
+      <p class="relative mt-12 text-[10px] font-bold uppercase tracking-[.25em] text-plum/45">Scroll to discover ↓</p>
+    </section>
+    <section id="messageSection" class="mx-auto max-w-3xl px-1 pt-28 text-center sm:pt-36"><p class="mb-3 text-[10px] font-bold uppercase tracking-[.35em] text-rose">From my heart</p><h2 class="font-display text-4xl text-ink sm:text-5xl">A note just for you</h2>
+      <div class="relative mt-8 rounded-[1.75rem] border border-white bg-white/75 p-7 text-left shadow-luxury backdrop-blur-xl sm:rounded-[2.5rem] sm:p-14"><div class="absolute right-7 top-7 rotate-6 border border-rose/50 px-2 py-1 text-center text-[8px] font-bold leading-tight tracking-[.16em] text-rose sm:right-12 sm:top-10">WITH<br>LOVE</div><p class="font-display text-2xl italic text-rose">Dear <span id="friendNameLetter">Bestie</span>,</p><div class="mt-6 space-y-5 text-sm leading-8 text-plum/80 sm:text-base"><p>Tum meri life ke un special logon mein se ho jinke bina sab kuch thoda boring sa lagta hai. Tumhari dosti mere liye bahut precious hai, aur main lucky hoon ki tum meri friend ho.</p><p>Is naye saal mein tumhe dher saari khushiyan, success, pyaar aur unforgettable memories milein. Hamesha aise hi smile karte rehna — because your smile is truly magical!</p></div><p class="mt-8 font-display text-xl italic text-rose">Happy Birthday once again! <span class="not-italic">✦</span></p><p class="mt-8 text-right text-xs leading-6 text-plum/70">With lots of love,<br><strong class="text-sm text-plum">Your Special Friend</strong></p></div>
+    </section>
+    <section class="mx-auto max-w-3xl px-1 pb-16 pt-28 text-center sm:pt-36"><p class="mb-3 text-[10px] font-bold uppercase tracking-[.35em] text-rose">Make a wish</p><div class="rounded-[1.75rem] border border-white bg-gradient-to-br from-white/90 to-blush/70 p-8 shadow-luxury sm:rounded-[2.5rem] sm:p-14"><div class="mb-5 text-5xl drop-shadow-lg">🕯️</div><h2 class="font-display text-3xl text-ink sm:text-4xl">Close your eyes.<br>Make a wish.</h2><p class="mx-auto mt-4 max-w-sm text-sm leading-7 text-plum/70">Jab ready ho, candle blow karne ke liye button dabao ✨</p><button id="wishBtn" class="mt-7 rounded-full border border-ink bg-transparent px-7 py-3.5 text-sm font-bold text-ink transition hover:bg-ink hover:text-white">Blow the Candle <span class="ml-1">→</span></button><p id="wishResult" class="mt-5 min-h-6 text-sm font-bold text-rose" aria-live="polite"></p></div></section>
+    <footer class="border-t border-plum/10 pt-7 text-center text-[10px] font-bold uppercase tracking-[.24em] text-plum/45">Made with friendship, happiness & lots of love <span class="text-rose">♥</span></footer>
+  </main><script src="script.js"></script>
+</body>
+</html>
